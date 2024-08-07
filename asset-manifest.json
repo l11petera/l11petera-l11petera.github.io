@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/l11petera.github.io/static/css/main.fca42aee.css",
-    "main.js": "/l11petera.github.io/static/js/main.160d99da.js",
-    "static/media/vadim.jpg": "/l11petera.github.io/static/media/vadim.a2b1d3bb7aaa4423dec1.jpg",
-    "index.html": "/l11petera.github.io/index.html",
-    "main.fca42aee.css.map": "/l11petera.github.io/static/css/main.fca42aee.css.map",
-    "main.160d99da.js.map": "/l11petera.github.io/static/js/main.160d99da.js.map"
+    "main.css": "/l11petera-l11petera.github.io/static/css/main.4a0e4567.css",
+    "main.js": "/l11petera-l11petera.github.io/static/js/main.160d99da.js",
+    "static/media/vadim.jpg": "/l11petera-l11petera.github.io/static/media/vadim.a2b1d3bb7aaa4423dec1.jpg",
+    "index.html": "/l11petera-l11petera.github.io/index.html",
+    "main.4a0e4567.css.map": "/l11petera-l11petera.github.io/static/css/main.4a0e4567.css.map",
+    "main.160d99da.js.map": "/l11petera-l11petera.github.io/static/js/main.160d99da.js.map"
   },
   "entrypoints": [
-    "static/css/main.fca42aee.css",
+    "static/css/main.4a0e4567.css",
     "static/js/main.160d99da.js"
   ]
 }
