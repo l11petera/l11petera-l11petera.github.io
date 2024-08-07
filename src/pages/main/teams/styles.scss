@@ -1,0 +1,38 @@
+@media (max-width: 1299px) {
+  .style {
+    display: none;
+  }
+  .mot {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .im1 {
+    display: flex;
+    justify-content: center;
+    .img1 {
+      width: 80%;
+    }
+  }
+  .text1 {
+    width: auto;
+    padding-left: auto;
+    padding-right: auto;
+  }
+  .mot {
+    margin-left: auto;
+  }
+  .mot1 {
+    display: inline;
+    padding-left: 5px;
+  }
+}

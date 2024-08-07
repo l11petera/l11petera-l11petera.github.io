@@ -1,0 +1,209 @@
+.shadow-xl {
+  box-shadow: 1px 1px 1px 1px;
+}
+@media (max-width: 1300px) {
+  .eng {
+    width: 350px;
+  }
+}
+@media (max-width: 1200px) {
+  .principal {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    justify-content: center;
+    align-items: start;
+  }
+  .image {
+    width: 430px;
+    height: 480px;
+  }
+  .trio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .group1 {
+    width: 310px;
+  }
+  .philo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .engtech {
+    width: 100%;
+    padding-left: 40px;
+  }
+  .cd0 {
+    border: none;
+  }
+  .cd {
+    width: 340px;
+  }
+  .eng {
+    width: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .group1 {
+    width: 270px;
+  }
+  .eng {
+    width: 240px;
+  }
+}
+@media (max-width: 900px) {
+  .group1 {
+    width: 240px;
+  }
+}
+@media (max-width: 800px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 500px;
+    height: 550px;
+  }
+  .title {
+    font-size: 38px;
+    width: 500px;
+    padding-left: 20px;
+  }
+  .secundo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tertio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .trio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .group1 {
+    width: 320px;
+  }
+  .crd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cardEng {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .eng {
+    width: 380px;
+  }
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 30px;
+    width: 320px;
+  }
+}
+@media (max-width: 590px) {
+  .princi2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+    width: 300px;
+    height: 330px;
+  }
+  .ico {
+    width: 60px;
+    height: 60px;
+  }
+  .ico1 {
+    width: 40px;
+    height: 40px;
+  }
+  .desc {
+    width: 100%;
+  }
+}
+@media (max-width: 400px) {
+  .card {
+    width: 250px;
+    height: 100%;
+  }
+  .group1 {
+    width: 300px;
+  }
+  .engtech {
+    width: 100%;
+    font-size: 30px;
+  }
+  .cd {
+    width: 250px;
+  }
+  .eng {
+    width: 300px;
+  }
+}
+@media (max-width: 350px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .image {
+    width: 240px;
+    height: 300px;
+  }
+  .title1 {
+    font-size: 30px;
+    width: 120px;
+  }
+  .ico {
+    width: 60px;
+    height: 60px;
+  }
+  .ico1 {
+    width: 40px;
+    height: 40px;
+  }
+  .group1 {
+    width: 200px;
+  }
+  .eng {
+    width: 250px;
+  }
+}
+@media (max-width: 600px) {
+  .title {
+    font-size: 27px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+  .principale {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1000px) {
+  .imag {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  .principale {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .imag {
+    width: 100%;
+  }
+}

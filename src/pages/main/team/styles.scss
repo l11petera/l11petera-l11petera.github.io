@@ -1,0 +1,75 @@
+@media (max-width: 900px) {
+  .mot {
+    width: auto;
+  }
+  .team {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .chef {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    width: auto;
+  }
+  .title {
+    width: auto;
+  }
+  .poste {
+    width: auto;
+  }
+  .desc {
+    width: auto;
+  }
+  .it {
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 350px) {
+  .chef {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title {
+    width: auto;
+  }
+  .title {
+    width: auto;
+  }
+  .poste {
+    width: auto;
+  }
+  .desc {
+    width: auto;
+  }
+  .ichef {
+    display: none;
+  }
+  .it {
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .imt {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .bar {
+    display: none;
+  }
+}

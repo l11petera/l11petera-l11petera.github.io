@@ -1,0 +1,33 @@
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; /* Ajout d'une transition pour un effet de survol fluide */
+}
+
+.grayscale:hover {
+  filter: grayscale(0%);
+}
+
+@media (max-width: 900px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .bar {
+    display: none;
+  }
+}
+@media (max-width: 450px) {
+  .inp {
+    width: 300px;
+  }
+}
+@media (max-width: 360px) {
+  .inp {
+    width: 240px;
+  }
+}

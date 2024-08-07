@@ -1,0 +1,10 @@
+.animated-image:hover + .absolute.top-64.left-["1045px"] {
+  transform: rotateY(
+    90deg
+  ); /* Faire pivoter la première carte de 90 degrés vers la droite */
+  transition: transform 0.5s ease; /* Animer la rotation sur 0,5 seconde avec un effet ease */
+}
+
+.animated-image:hover + .absolute.top-64.left-[1045px] {
+  transform: rotateY(90deg);
+}

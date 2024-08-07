@@ -1,0 +1,45 @@
+.btn button {
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #ddd;
+}
+.btn button:active {
+  background-color: #282525;
+}
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+@media (max-width: 900px) {
+  .pripe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .pripe1 {
+    width: 94%;
+  }
+}
+@media (max-width: 600px) {
+  .align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .align0 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .align1 {
+    width: 100%;
+  }
+}

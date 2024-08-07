@@ -1,0 +1,117 @@
+.grayscale {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease; /* Ajout d'une transition pour un effet de survol fluide */
+}
+
+.grayscale:hover {
+  filter: grayscale(0%);
+}
+.princip {
+  background-image: url("../../../../../../public/vadim.jpg");
+  background-size: 100%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 400px;
+}
+@media (min-width: 1300px) {
+  .principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .titre1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .soustitre {
+    width: 550px;
+  }
+  .image1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+  }
+}
+@media (max-width: 950px) {
+  .principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .pt {
+    max-width: 384px;
+    width: 100%;
+  }
+  .image {
+    width: 400px;
+    height: 450px;
+  }
+}
+@media (max-width: 900px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .pt {
+    max-width: 384px;
+    width: 100%;
+  }
+  .image {
+    width: 430px;
+    height: 480px;
+  }
+}
+@media (max-width: 490px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+  .titre h1 {
+    font-size: 36px;
+  }
+  .titre h2 {
+    font-size: 22px;
+  }
+  .pt {
+    max-width: 384px;
+    width: 100%;
+  }
+  .image {
+    width: 350px;
+    height: 380px;
+  }
+  .vide {
+    height: 45px;
+  }
+}
+@media (max-width: 390px) {
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: start;
+  }
+  .titre h1 {
+    font-size: 36px;
+  }
+  .titre h2 {
+    font-size: 22px;
+  }
+  .pt {
+    max-width: 384px;
+    width: 100%;
+  }
+  .image {
+    width: 280px;
+    height: 300px;
+  }
+}
